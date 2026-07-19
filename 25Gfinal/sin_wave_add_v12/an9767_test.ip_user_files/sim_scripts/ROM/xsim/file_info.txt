@@ -1,0 +1,2 @@
+ROM.v,verilog,xil_defaultlib,../../../../an9767_test.gen/sources_1/ip/ROM/sim/ROM.v,incdir="F:/AMDDesignTools/2025.2/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v

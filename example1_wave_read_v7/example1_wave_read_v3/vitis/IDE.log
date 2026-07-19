@@ -1,0 +1,19 @@
+13:04:50 DEBUG : Logs will be stored at 'C:/Users/stega/Desktop/vibeFPGA/example1_wave_read_v7/example1_wave_read_v3/vitis/IDE.log'.
+13:04:51 INFO  : Registering command handlers for Vitis TCF services
+13:04:51 INFO  : Result from executing command 'getProjects': 
+13:05:00 INFO  : Platform repository initialization has completed.
+13:05:13 INFO  : Result from executing command 'getProjects': 
+13:05:13 INFO  : Result from executing command 'getPlatforms': vek385_base|D:/for_fpga/2025.2/Vitis/base_platforms/vek385_base/vek385_base.xpfm;vrk160_base|D:/for_fpga/2025.2/Vitis/base_platforms/vrk160_base/vrk160_base.xpfm;xilinx_kv260_base_202520_1|D:/for_fpga/2025.2/Vitis/base_platforms/xilinx_kv260_base_202520_1/xilinx_kv260_base_202520_1.xpfm;xilinx_vck190_base_202520_1|D:/for_fpga/2025.2/Vitis/base_platforms/xilinx_vck190_base_202520_1/xilinx_vck190_base_202520_1.xpfm;xilinx_vck190_base_dfx_202520_1|D:/for_fpga/2025.2/Vitis/base_platforms/xilinx_vck190_base_dfx_202520_1/xilinx_vck190_base_dfx_202520_1.xpfm;xilinx_vek280_base_202520_1|D:/for_fpga/2025.2/Vitis/base_platforms/xilinx_vek280_base_202520_1/xilinx_vek280_base_202520_1.xpfm;xilinx_vmk180_base_202520_1|D:/for_fpga/2025.2/Vitis/base_platforms/xilinx_vmk180_base_202520_1/xilinx_vmk180_base_202520_1.xpfm
+20:26:10 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:95) ~[?:?]
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186) ~[org.eclipse.tcf.core_1.7.0.202511071507.jar:?]
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85) ~[org.eclipse.tcf.core_1.7.0.202511071507.jar:?]
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329) ~[org.eclipse.tcf.core_1.7.0.202511071507.jar:?]

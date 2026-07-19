@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ROM_synth_1" LaunchDir="F:/xilinx_project/AX7020/2017_NewCourse/course_s1_fpga/ad9767_dual_sin_wave/an9767_test.runs/ROM_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="PLL_synth_1" LaunchDir="F:/xilinx_project/AX7020/2017_NewCourse/course_s1_fpga/ad9767_dual_sin_wave/an9767_test.runs/PLL_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="F:/xilinx_project/AX7020/2017_NewCourse/course_s1_fpga/ad9767_dual_sin_wave/an9767_test.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ROM_synth_1"/>
+		<Parent Id="PLL_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="F:/xilinx_project/AX7020/2017_NewCourse/course_s1_fpga/ad9767_dual_sin_wave/an9767_test.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ROM_synth_1"/>
+		<Parent Id="PLL_synth_1"/>
+	</Run>
+</Runs>
+

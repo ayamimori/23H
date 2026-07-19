@@ -1,0 +1,431 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 28 21:25:46 2026
+# Process ID         : 21564
+# Current directory  : C:/Users/stega/Desktop/sin_wave_add_v11
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7408 C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.xpr
+# Log file           : C:/Users/stega/Desktop/sin_wave_add_v11/vivado.log
+# Journal file       : C:/Users/stega/Desktop/sin_wave_add_v11\vivado.jou
+# Running On         : ayamimori
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7745HX with Radeon Graphics        
+# CPU Frequency      : 3593 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16295 MB
+# Swap memory        : 21474 MB
+# Total Virtual      : 37770 MB
+# Available Virtual  : 14640 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\ac701\1.4\board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.0\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.1\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.1\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385_1:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385_2\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\2.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.2\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180\production\3.3\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.0\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vmk180_newl\production\1.1\board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.0\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.1\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk120\production\1.2\board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.0\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vrk160:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vrk160\1.1\board.xml as part xcvr1602-vsva2488-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\ac701\1.4\board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.6\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kc705\1.7\board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu1500\1.2\board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.0\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\sp701\1.1\board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.4\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.5 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc707\1.5\board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vc709\1.8\board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\2.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190\production\3.4\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.0\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.1\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.2\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vck190_newl\production\1.3\board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.0\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.3\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu118\2.4\board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu1525\1.3\board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/for_fpga/2025.2/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/for_fpga/2025.2/Vivado/data/ip'.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_1/bd_6f02_psr_aclk_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_2/bd_6f02_arinsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_3/bd_6f02_rinsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_4/bd_6f02_awinsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_5/bd_6f02_winsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_6/bd_6f02_binsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_7/bd_6f02_aroutsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_8/bd_6f02_routsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_9/bd_6f02_awoutsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_10/bd_6f02_woutsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_11/bd_6f02_boutsw_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_12/bd_6f02_arni_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_13/bd_6f02_rni_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_14/bd_6f02_awni_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_15/bd_6f02_wni_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_16/bd_6f02_bni_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_17/bd_6f02_s00mmu_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_18/bd_6f02_s00tr_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_19/bd_6f02_s00sic_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_20/bd_6f02_s00a2s_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_21/bd_6f02_sarn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_22/bd_6f02_srn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_23/bd_6f02_sawn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_24/bd_6f02_swn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_25/bd_6f02_sbn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_26/bd_6f02_m00s2a_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_27/bd_6f02_m00arn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_28/bd_6f02_m00rn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_29/bd_6f02_m00awn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_30/bd_6f02_m00wn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_31/bd_6f02_m00bn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_32/bd_6f02_m00e_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_33/bd_6f02_m01s2a_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_34/bd_6f02_m01arn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_35/bd_6f02_m01rn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_36/bd_6f02_m01awn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_37/bd_6f02_m01wn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_38/bd_6f02_m01bn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_39/bd_6f02_m01e_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_40/bd_6f02_m02s2a_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_41/bd_6f02_m02arn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_42/bd_6f02_m02rn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_43/bd_6f02_m02awn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_44/bd_6f02_m02wn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_45/bd_6f02_m02bn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_46/bd_6f02_m02e_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_47/bd_6f02_m03s2a_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_48/bd_6f02_m03arn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_49/bd_6f02_m03rn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_50/bd_6f02_m03awn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_51/bd_6f02_m03wn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_52/bd_6f02_m03bn_0.xci' referenced by design 'bd_6f02' could not be found.
+WARNING: [BD 41-2576] File 'c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/ip/ip_53/bd_6f02_m03e_0.xci' referenced by design 'bd_6f02' could not be found.
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ design_1_xlconcat_0_0
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1746.441 ; gain = 280.902
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/ip/PLL/PLL.xci' is already up-to-date
+INFO: [BD 41-433] Design successfully migrated to use XCI files...
+INFO: [BD 5-943] Reserving offset range <0x4120_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4121_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4122_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M02_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4123_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M03_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4120_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4121_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4122_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M02_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4123_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M03_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] design_1_axi_smc_1: SmartConnect design_1_axi_smc_1 is in Low-Area Mode.
+Wrote  : <C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ad9767_test_2 .
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1_sv.sveo
+[Tue Apr 28 21:27:53 2026] Launched synth_1...
+Run output will be captured here: C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:00:32 . Memory (MB): peak = 1896.684 ; gain = 150.242
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+ERROR: [Common 17-180] Spawn failed: 操作成功完成。
+
+open_bd_design {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:module_ref:ad9767_test:1.0 - ad9767_test_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_2
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_3
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Successfully read diagram <design_1> from block design file <C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd>
+update_module_reference design_1_ad9767_test_2_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ad_ch1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da2_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sys_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'ad_ch1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da2_clk': FREQ_HZ bus parameter is missing for output clock interface.
+WARNING: [IP_Flow 19-5661] Bus Interface 'sys_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'sys_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ad_ch1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da2_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sys_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'ad_ch1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da2_clk': FREQ_HZ bus parameter is missing for output clock interface.
+WARNING: [IP_Flow 19-5661] Bus Interface 'sys_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'sys_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_ad9767_test_2_0 to use current project options
+Wrote  : <C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\bd\design_1\design_1.bd> 
+validate_bd_design
+INFO: [BD 5-943] Reserving offset range <0x4120_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4121_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4122_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M02_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4123_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M03_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] design_1_axi_smc_1: SmartConnect design_1_axi_smc_1 is in Low-Area Mode.
+validate_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1950.500 ; gain = 17.754
+generate_target all [get_files  C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ad9767_test_2 .
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1_sv.sveo
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1950.500 ; gain = 0.000
+export_ip_user_files -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/modelsim} {questa=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/questa} {riviera=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/riviera} {activehdl=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/activehdl}] -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files -ipstatic_source_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+ERROR: [Common 17-180] Spawn failed: 操作成功完成。
+
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/utils_1/imports/synth_1/ad9767_test.dcp with file C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/synth_1/design_1_wrapper.dcp
+launch_runs synth_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/ip/PLL/PLL.xci' is already up-to-date
+[Tue Apr 28 21:36:55 2026] Launched synth_1...
+Run output will be captured here: C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+open_bd_design {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_ad9767_test_2_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ad_ch1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da2_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sys_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'ad_ch1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da2_clk': FREQ_HZ bus parameter is missing for output clock interface.
+WARNING: [IP_Flow 19-5661] Bus Interface 'sys_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'sys_clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'ad_ch1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da1_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'da2_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'sys_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'ad_ch1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da1_clk': FREQ_HZ bus parameter is missing for output clock interface.
+CRITICAL WARNING: [IP_Flow 19-4751] Bus Interface 'da2_clk': FREQ_HZ bus parameter is missing for output clock interface.
+WARNING: [IP_Flow 19-5661] Bus Interface 'sys_clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'sys_clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_ad9767_test_2_0 to use current project options
+Wrote  : <C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\bd\design_1\design_1.bd> 
+validate_bd_design
+INFO: [BD 5-943] Reserving offset range <0x4120_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M00_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4121_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M01_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4122_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M02_AXI'. This will be used by smartconnect on path for routing.
+INFO: [BD 5-943] Reserving offset range <0x4123_0000 [ 64K ]> from slave interface '/axi_smc/S00_AXI' to master interface '/axi_smc/M03_AXI'. This will be used by smartconnect on path for routing.
+INFO: [xilinx.com:ip:smartconnect:1.0-1] design_1_axi_smc_1: SmartConnect design_1_axi_smc_1 is in Low-Area Mode.
+validate_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1977.711 ; gain = 0.516
+generate_target all [get_files  C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ad9767_test_2 .
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+Exporting to file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file c:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.gen/sources_1/bd/design_1/design_1_sv.sveo
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2002.352 ; gain = 20.695
+export_ip_user_files -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/modelsim} {questa=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/questa} {riviera=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/riviera} {activehdl=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/activehdl}] -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files -ipstatic_source_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+make_wrapper -files [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/utils_1/imports/synth_1/ad9767_test.dcp with file C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/synth_1/design_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/ip/PLL/PLL.xci' is already up-to-date
+[Tue Apr 28 21:41:13 2026] Launched synth_1...
+Run output will be captured here: C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/synth_1/runme.log
+[Tue Apr 28 21:41:13 2026] Launched impl_1...
+Run output will be captured here: C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+ERROR: [Common 17-180] Spawn failed: 操作成功完成。
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\iir_biquad.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\sweep_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.srcs\sources_1\new\ad9767_test.v:]
+write_hw_platform -fixed -include_bit -force -file C:/Users/stega/Desktop/sin_wave_add_v11/design_1_wrapper.xsa
+INFO: [Projectvivado 1-1918] Creating Hardware Platform: C:/Users/stega/Desktop/sin_wave_add_v11/design_1_wrapper.xsa ...
+INFO: [Projectvivado 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Projectvivado 1-1941] Successfully created Hardware Platform: C:/Users/stega/Desktop/sin_wave_add_v11/design_1_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (D:/for_fpga/2025.2/Vivado/data/embeddedsw) loading 4 seconds
+write_hw_platform: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2199.012 ; gain = 172.805
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2025.2
+  **** Build date : Oct 28 2025 at 10:03:13
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2025.2.0
+  ****** Build date   : Nov 14 2025-07:16:52
+    **** Build number : 2025.2.1763075812
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2199.012 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported soft debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 22:15:50 2026...

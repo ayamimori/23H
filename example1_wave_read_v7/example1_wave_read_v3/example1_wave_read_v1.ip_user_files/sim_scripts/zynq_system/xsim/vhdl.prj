@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/zynq_system/ip/zynq_system_axi_dma_0_0/sim/zynq_system_axi_dma_0_0.vhd" \
+"../../../bd/zynq_system/ip/zynq_system_axi_gpio_0_0/sim/zynq_system_axi_gpio_0_0.vhd" \
+"../../../bd/zynq_system/ip/zynq_system_axi_gpio_1_0/sim/zynq_system_axi_gpio_1_0.vhd" \
+"../../../bd/zynq_system/ip/zynq_system_axi_gpio_2_0/sim/zynq_system_axi_gpio_2_0.vhd" \
+"../../../bd/zynq_system/ip/zynq_system_axi_smc_0/bd_0/ip/ip_1/sim/bd_5e13_psr_aclk_0.vhd" \
+"../../../bd/zynq_system/ip/zynq_system_rst_ps7_0_50M_0/sim/zynq_system_rst_ps7_0_50M_0.vhd" \
+
+# Do not sort compile order
+nosort

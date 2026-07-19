@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:synthpilot.dev)",
+      "Bash(curl *)",
+      "Bash(uv *)",
+      "Read(//c//**)",
+      "Read(//d//**)",
+      "Read(//e//**)",
+      "Bash(where vivado *)",
+      "Bash(reg query *)",
+      "Bash(powershell -Command \"\ntry {\n    \\\\$WshShell = New-Object -ComObject WScript.Shell\n    \\\\$shortcut = \\\\$WshShell.CreateShortcut\\('C:\\\\Users\\\\stega\\\\Desktop\\\\Vivado 2025.2.lnk'\\)\n    \\\\$shortcut.TargetPath\n} catch {\n    Write-Output 'Could not resolve shortcut'\n}\n\" 2>&1)",
+      "Bash(synthpilot setup *)",
+      "Bash(synthpilot install *)",
+      "Bash(synthpilot doctor *)",
+      "Bash(synthpilot activate *)",
+      "Bash(claude mcp *)",
+      "WebFetch(domain:github.com)",
+      "Bash(git clone *)",
+      "Bash(gh --version)",
+      "Bash(gh repo *)",
+      "mcp__synthpilot__get_license_status",
+      "mcp__synthpilot__open_project",
+      "mcp__synthpilot__open_block_design",
+      "mcp__synthpilot__bd_get_ps7_config",
+      "mcp__synthpilot__bd_list_ips",
+      "mcp__synthpilot__bd_get_address_map",
+      "mcp__synthpilot__bd_get_unconnected_pins",
+      "mcp__synthpilot__emb_serial_list",
+      "mcp__synthpilot__emb_serial_open",
+      "mcp__synthpilot__emb_test_connection",
+      "mcp__synthpilot__emb_disconnect",
+      "mcp__synthpilot__generate_bitstream",
+      "mcp__synthpilot__emb_serial_close",
+      "mcp__synthpilot__emb_serial_read"
+    ]
+  }
+}

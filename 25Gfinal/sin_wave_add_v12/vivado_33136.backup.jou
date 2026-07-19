@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 28 19:12:45 2026
+# Process ID         : 33136
+# Current directory  : C:/Users/stega/Desktop/sin_wave_add_v11
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent14916 C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.xpr
+# Log file           : C:/Users/stega/Desktop/sin_wave_add_v11/vivado.log
+# Journal file       : C:/Users/stega/Desktop/sin_wave_add_v11\vivado.jou
+# Running On         : ayamimori
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7745HX with Radeon Graphics        
+# CPU Frequency      : 3593 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16295 MB
+# Swap memory        : 21474 MB
+# Total Virtual      : 37770 MB
+# Available Virtual  : 20519 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+update_module_reference design_1_ad9767_test_2_0
+launch_runs synth_1 -jobs 16

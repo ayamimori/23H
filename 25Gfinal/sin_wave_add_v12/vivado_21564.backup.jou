@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 28 21:25:46 2026
+# Process ID         : 21564
+# Current directory  : C:/Users/stega/Desktop/sin_wave_add_v11
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7408 C:\Users\stega\Desktop\sin_wave_add_v11\an9767_test.xpr
+# Log file           : C:/Users/stega/Desktop/sin_wave_add_v11/vivado.log
+# Journal file       : C:/Users/stega/Desktop/sin_wave_add_v11\vivado.jou
+# Running On         : ayamimori
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 7745HX with Radeon Graphics        
+# CPU Frequency      : 3593 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16295 MB
+# Swap memory        : 21474 MB
+# Total Virtual      : 37770 MB
+# Available Virtual  : 14640 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_bd_design {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_ad9767_test_2_0
+validate_bd_design
+generate_target all [get_files  C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/modelsim} {questa=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/questa} {riviera=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/riviera} {activehdl=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/activehdl}] -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files -ipstatic_source_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_bd_design {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_ad9767_test_2_0
+validate_bd_design
+generate_target all [get_files  C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -lib_map_path [list {modelsim=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/modelsim} {questa=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/questa} {riviera=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/riviera} {activehdl=C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.cache/compile_simlib/activehdl}] -of_objects [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files -ipstatic_source_dir C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+make_wrapper -files [get_files C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/stega/Desktop/sin_wave_add_v11/design_1_wrapper.xsa
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/stega/Desktop/sin_wave_add_v11/an9767_test.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

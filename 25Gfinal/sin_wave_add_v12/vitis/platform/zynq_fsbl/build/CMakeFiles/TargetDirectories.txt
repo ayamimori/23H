@@ -1,0 +1,4 @@
+C:/Users/stega/Desktop/sin_wave_add_v22/sin_wave_add_v12/vitis/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/Users/stega/Desktop/sin_wave_add_v22/sin_wave_add_v12/vitis/platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+C:/Users/stega/Desktop/sin_wave_add_v22/sin_wave_add_v12/vitis/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/Users/stega/Desktop/sin_wave_add_v22/sin_wave_add_v12/vitis/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

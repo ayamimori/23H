@@ -1,0 +1,4 @@
+domain_path: C:\Users\stega\Desktop\vibeFPGA\example1_wave_read_v7\example1_wave_read_v3\ps\platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: D:\for_fpga\2025.2\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c
